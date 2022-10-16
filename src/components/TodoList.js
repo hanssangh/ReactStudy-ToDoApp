@@ -3,7 +3,7 @@ import './TodoList.scss';
 
 const TodoList = ({todos, onRemove, onToggle}) => {
     return (
-        <div>
+        <div className="TodoList">
             {todos.map(todo => (
                 <TodoListItem 
                     todo={todo} 
